@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.env*.local
+.DS_Store
+# The APK is large; keep it out of git and upload it with the site files.
+public/downloads/*.apk

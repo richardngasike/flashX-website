@@ -1,0 +1,20 @@
+{
+  "name": "flashx-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlashX download site: Android APK download and install guide.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "npx --yes serve@14.2.4 out -l 4173"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "qrcode": "1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

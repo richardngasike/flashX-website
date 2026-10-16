@@ -1,0 +1,7 @@
+# Apache / cPanel hosting
+AddType application/vnd.android.package-archive .apk
+<FilesMatch "\.apk$">
+  Header set Content-Disposition "attachment"
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>
+ErrorDocument 404 /404.html
